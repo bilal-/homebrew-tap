@@ -5,21 +5,21 @@ class Sous < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bilal-/sous/releases/download/v0.7.0/sous_0.7.0_darwin_arm64.tar.gz"
-      sha256 "21b8fc34098c73b84fcba423daf340e5daa8a0fbafd39a21fe3422ba38816a76"
+      url "https://github.com/bilal-/sous/releases/download/v0.8.0/sous_0.8.0_darwin_arm64.tar.gz"
+      sha256 "58e620a1db3b0606923f0647242a404d2ce296ef83ed758cc1d8aa768b8518ad"
     else
-      url "https://github.com/bilal-/sous/releases/download/v0.7.0/sous_0.7.0_darwin_amd64.tar.gz"
-      sha256 "30bb3a04c291ac1fdd3cdca304774be0e89b3fef2517b8830186b75ba13e68e4"
+      url "https://github.com/bilal-/sous/releases/download/v0.8.0/sous_0.8.0_darwin_amd64.tar.gz"
+      sha256 "502d6847356af6042fdbd53f4eaf66d7f799f9447918ef5ebc17a728efda2e86"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bilal-/sous/releases/download/v0.7.0/sous_0.7.0_linux_arm64.tar.gz"
-      sha256 "24b9da4f6dfaa2d332ac36cab951ea984b5654281e0d6011b2727eac865d178e"
+      url "https://github.com/bilal-/sous/releases/download/v0.8.0/sous_0.8.0_linux_arm64.tar.gz"
+      sha256 "75618ec8f7392277c0747bd2c8f151c9e08563f78f55517755debd2e2132d962"
     else
-      url "https://github.com/bilal-/sous/releases/download/v0.7.0/sous_0.7.0_linux_amd64.tar.gz"
-      sha256 "2cb248f37393a1b5dcefa678d49f78877dbee80c62ff539d1def52faee60cc64"
+      url "https://github.com/bilal-/sous/releases/download/v0.8.0/sous_0.8.0_linux_amd64.tar.gz"
+      sha256 "af0487e3a48743c5e68c79b971755fa2a0cccdb735161b5ad27b6102b798147c"
     end
   end
 

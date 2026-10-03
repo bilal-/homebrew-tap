@@ -1,25 +1,25 @@
 class Sous < Formula
   desc "One list of what is waiting on you, across every project"
   homepage "https://github.com/bilal-/sous"
-  license "Apache-2.0"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bilal-/sous/releases/download/v0.11.0/sous_0.11.0_darwin_arm64.tar.gz"
-      sha256 "eb9fab1a6a1cc236c47e51687e54aa53a9fc5eae63ee7f254c4e9212f8fdd961"
+      url "https://github.com/bilal-/sous/releases/download/v0.11.1/sous_0.11.1_darwin_arm64.tar.gz"
+      sha256 "6dcd65b1a9487b6f9ad354b76d615456aeea0aed8e810d435ba4a54c12c39f7d"
     else
-      url "https://github.com/bilal-/sous/releases/download/v0.11.0/sous_0.11.0_darwin_amd64.tar.gz"
-      sha256 "b332f017bf0e0413968c4fcf4b63f34c2fa70bff55425882cfa4a5a370e75162"
+      url "https://github.com/bilal-/sous/releases/download/v0.11.1/sous_0.11.1_darwin_amd64.tar.gz"
+      sha256 "30f9d0a693caf816d1b647aac68e5f32e1373095ee701fd5bd22da16a3a4a532"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bilal-/sous/releases/download/v0.11.0/sous_0.11.0_linux_arm64.tar.gz"
-      sha256 "b5c743815ed8640047e9ef41a97c35cab541f4ddb9b3770279186fcbc77db3d6"
+      url "https://github.com/bilal-/sous/releases/download/v0.11.1/sous_0.11.1_linux_arm64.tar.gz"
+      sha256 "9ee1f13dd340553f768746fd2e317cd30e12665d410d7880d39f94317f4000d6"
     else
-      url "https://github.com/bilal-/sous/releases/download/v0.11.0/sous_0.11.0_linux_amd64.tar.gz"
-      sha256 "af99d3540c1ef66ad3954d55310d09eaffa5f507a2bdbb657984c3150c41ce73"
+      url "https://github.com/bilal-/sous/releases/download/v0.11.1/sous_0.11.1_linux_amd64.tar.gz"
+      sha256 "80c5c0d9e9020685d5542109d492a39215e812ff92022897265de0fa7f643a31"
     end
   end
 
